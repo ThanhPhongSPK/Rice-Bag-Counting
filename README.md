@@ -17,3 +17,58 @@
 ### Take a look of the example outputs: 
 ![Description](output.png)
 ![Description](output2.png)
+
+### 🔧 Instructions
+
+1. **Install Dependencies**
+   Make sure you have Python and the required libraries installed:
+
+   ```bash
+   pip install opencv-python numpy
+   ```
+
+2. **Edit the Video Path**
+   Open one of the detection scripts:
+
+   * `object_background_filter.py`
+   * `object_background_filter_rice.py` (includes advanced counting and tracking)
+
+   Then update the `dir` variable with the correct path to your video file:
+
+   ```python
+   dir = r"videos/rice_package.mp4"
+   cap = cv.VideoCapture(dir)
+   ```
+
+3. **Run the Script**
+   Use the command line to execute the script:
+
+   ```bash
+   python object_background_filter_rice.py
+   ```
+
+   or
+
+   ```bash
+   python object_background_filter.py
+   ```
+
+4. **View Results**
+
+   * The script will display the video with bounding boxes, contours, and bag count.
+   * An output video file (`*_out.mp4`) will be saved automatically in the project directory.
+
+---
+
+### 📁 Project Structure
+
+```
+├── videos/
+│   └── rice_package.mp4          # Example input video
+├── object_background_filter.py  # Basic contour detection
+├── object_background_filter_rice.py  # With object tracking and counting
+├── output.png                   # Output sample image
+├── output2.png                  # Output sample image
+└── README.md
+```
+
