@@ -14,4 +14,6 @@
 * Supports **real-time decision-making** in high-speed production lines
 * Enables **integration with PLCs and sorting systems** for full automation
 
+### Take a look of the example output: 
+![Description](relative/path/to/image.png)
 
