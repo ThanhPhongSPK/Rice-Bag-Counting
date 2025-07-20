@@ -21,14 +21,12 @@
 ### 🔧 Instructions
 
 1. **Install Dependencies**
-   Make sure you have Python and the required libraries installed:
 
    ```bash
    pip install opencv-python numpy
    ```
 
 2. **Edit the Video Path**
-   Open one of the detection scripts:
 
    * `object_background_filter.py`
    * `object_background_filter_rice.py` (includes advanced counting and tracking)
@@ -41,7 +39,6 @@
    ```
 
 3. **Run the Script**
-   Use the command line to execute the script:
 
    ```bash
    python object_background_filter_rice.py
