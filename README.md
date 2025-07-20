@@ -15,5 +15,5 @@
 * Enables **integration with PLCs and sorting systems** for full automation
 
 ### Take a look of the example output: 
-![Description](relative/path/to/image.png)
+![Description](output.png)
 
