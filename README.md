@@ -18,6 +18,19 @@
 ![Description](output.png)
 ![Description](output2.png)
 
+### 📁 Project Structure
+
+```
+├── videos/
+│   └── rice_package.mp4          # Example input video
+├── object_background_filter.py  # Basic contour detection
+├── object_background_filter_rice.py  # With object tracking and counting
+├── output.png                   # Output sample image
+├── output2.png                  # Output sample image
+└── README.md
+```
+
+---
 ### 🔧 Instructions
 
 1. **Install Dependencies**
@@ -57,15 +70,4 @@
 
 ---
 
-### 📁 Project Structure
-
-```
-├── videos/
-│   └── rice_package.mp4          # Example input video
-├── object_background_filter.py  # Basic contour detection
-├── object_background_filter_rice.py  # With object tracking and counting
-├── output.png                   # Output sample image
-├── output2.png                  # Output sample image
-└── README.md
-```
 
